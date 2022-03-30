@@ -129,3 +129,18 @@ nav ul li:nth-child(8):hover a{
 nav ul li:nth-child(9):hover a{
     color: #fff200;
 }
+/* ------menu-bar----- */
+.menu-bar {
+    background-color: #fed100;
+    padding: 12px 0;
+}
+.menu-bar ul {
+    display: flex; /*nằm ngang*/
+    justify-content: space-between;
+
+
+}
+.menu-bar ul li a {
+    color: black;
+    font-size: 16px;
+}

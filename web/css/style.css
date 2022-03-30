@@ -132,7 +132,7 @@ nav ul li:nth-child(9):hover a{
 /* ------menu-bar----- */
 .menu-bar {
     background-color: #fed100;
-    padding: 12px 0;
+    
 }
 .menu-bar ul {
     display: flex; /*nằm ngang*/
@@ -143,4 +143,44 @@ nav ul li:nth-child(9):hover a{
 .menu-bar ul li a {
     color: black;
     font-size: 16px;
+}
+.menu-bar ul li a i {
+    margin-right: 6px;
+    font-size: 16px;
+}
+.menu-bar ul li {
+    padding: 17px 6px;
+    transition: all 0.4s ease;
+}
+.menu-bar ul li:hover {
+    background-color: white;
+}
+.menu-bar ul li:nth-child(9) {
+    position: relative;
+}
+.menu-bar ul li:nth-child(9)::before {
+    position: absolute;
+    content: "Giảm 5%";
+    display: block;
+    height: 15px;
+    width: 45px;
+    background-color: #f51212;
+    border-radius: 5px;
+    right: -25px;
+    top: 2px;
+    font-size: 10px;
+    padding-left: 3px;
+    color: white;
+}
+.menu-bar ul li:nth-child(9)::after {
+    position: absolute;
+    content: "";
+    background-color: #f51212;
+    height: 7px;
+    width: 7px;
+    display: block;
+    top: 12px;
+    right: 10px;
+    z-index: 2;
+    transform: rotate(45deg);
 }

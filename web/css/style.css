@@ -17,6 +17,7 @@ a {
 header {
     background-color: #fff200;
     text-align: center; /* căn giữa */
+    height: 44px;
 }
 /* --------nav---------- */
 nav {

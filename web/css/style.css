@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 ul {
-    list-style: none; /* bỏ dấu của thẻ ul*/
+    list-style: none; /*bỏ dấu của thẻ ul*/
 }
 a {
     text-decoration: none; /*bỏ gạch chân*/
@@ -16,7 +16,7 @@ a {
 }
 header {
     background-color: #fff200;
-    text-align: center; /* căn giữa */
+    text-align: center; /*căn giữa */
     height: 44px;
 }
 /* --------nav---------- */

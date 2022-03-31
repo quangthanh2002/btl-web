@@ -15,19 +15,37 @@
     <nav>
         <div class="container">
             <ul>
-                <li><a href=""><img style="width: 150px;" src="/web/img/logo.jpg" alt=""></a></li>
-                <li><a href="">Hà Nội<i class="fas fa-sort-down"></i></a>
-                
-                
-                
-                </li>
+                <li><a href=""><img style="width: 150px;" src="/img/logo.jpg" alt=""></a></li>
+                <li id="adress-form"><a href="">Hà Nội<i class="fas fa-sort-down"></i></a></li>
                 <li><input type="text" placeholder="Bạn tìm kiếm gì...."><i class="fas fa-search"></i></li>
                 <li><a href=""></a><button><i class="fas fa-shopping-cart">Giỏ Hàng</i></button></li>
                 <li><a href="">Lịch sử <br> đơn hàng</a></li>
-                <li><a href=""><span class="btn1"><span class="2"></span></span> Hot</a></li>
-                <li><a href="">24 giờ công nghệ </a></li>
+                <li><a href=""><span class="btn1"><span class="btn2"></span></span> Hot</a></li>
+                <li><a href="">24 giờ công nghệ</a></li>
                 <li><a href="">Hỏi Đáp</a></li>
                 <li><a href=""> Game App</a></li>
+                <!-- <div class="adress-form">
+                    <div class="adress-form-content">
+                        <h2>Chọn địa chỉ nhập hàng <span id="adress-close">X Đóng</span></h2>
+                        <form action="">
+                            <p>Quý khách vui lòng cho biết Địa Chỉ Nhận Hàng để biết chính xác thời gian giao hàng</p>
+                            <select name="">
+                                <option value="#">--Chọn địa chỉ</option>
+                                <option value="#">Hà Nội</option>
+                            </select>
+                            <select name="">
+                                <option value="#">--Chọn Quận\Huyện</option>
+                                <option value="#">Hà Nội</option>
+                            </select>
+                            <select name="">
+                                <option value="#">--Chọn Phường\xá</option>
+                                <option value="#">Hà Nội</option>
+                            </select>
+                            <input type="text"placeholder="Số nhà, Tên đường">
+                            <button>Xác nhận</button>
+                        </form>
+                    </div>
+                </div> -->
             </ul>
         </div>
     </nav>
@@ -38,10 +56,39 @@
                     <li><a href=""><i class="fas fa-mobile-alt"></i> Điện Thoại</a></li>
                     <li><a href=""><i class="fas fa-laptop"></i> LapTop</a></li>
                     <li><a href=""><i class="fa fa-tablet" aria-hidden="true"></i> Tablet</a></li>
-                    <li><a href=""><i class="fas fa-headphones-alt"></i> Phụ Kiện <i style="margin-left: 4px;" class="fas fa-sort-down"></i></a></li>
+                    <li><a href=""><i class="fas fa-headphones-alt"></i> Phụ Kiện <i style="margin-left: 4px;" class="fas fa-sort-down"></i></a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="">A</a></li>
+                                <li><a href="">A</a></li>
+                                <li><a href="">A</a></li>
+                                <li><a href="">A</a></li>
+                                <li><a href="">A</a></li>
+                                <li><a href="">A</a></li>
+                                <li><a href="">A</a></li>
+                            </ul>
+                        </div>
+                    </li>
                     <li><a href=""><i class="fas fa-stopwatch-20"></i> Đồng Hồ</a></li>
-                    <li><a href=""><i class="fa fa-diamond" aria-hidden="true"></i> Trang sức</a></li>
-                    <li><a href=""><i class="fa fa-desktop" aria-hidden="true"></i> PC, Máy In <i style="margin-left: 4px;" class="fas fa-sort-down"></i></a></li>
+                    <li><a href=""><i class="fa fa-diamond" aria-hidden="true"></i> Trang sức <i style="margin-left: 4px;" class="fas fa-sort-down"></i></>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="">Đồng Hồ trang sức</a></li>
+                                <li><a href="">Trang sức</a></li>
+                                <li><a href="">Mắt kính</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href=""><i class="fa fa-desktop" aria-hidden="true"></i> PC, Máy In <i style="margin-left: 4px;" class="fas fa-sort-down"></i></a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="">Máy In</a></li>
+                                <li><a href="">Mực In</a></li>
+                                <li><a href="">Màn hình máy tính</a></li>
+                                <li><a href="">Máy tính để bàn</a></li>
+                            </ul>
+                        </div>
+                    </li>
                     <li><a href="">Máy cũ giá rẻ</a></li>
                     <li><a href="">Sim, thẻ cào</a></li>
                     <li><a href="">Trả góp điện nước</a></li>
@@ -49,5 +96,39 @@
             </div>
         </div>
     </section>
+    <!-- Slider -->
+    <section class="slider">
+        <div class="container">
+            <div class="slider-content">
+                <div class="slider-content-left">
+                    <div class="slider-content-left-top">
+                        <a href=""><img src="/img/1.png" alt=""></a>
+                        <a href=""><img src="/img/2.png" alt=""></a>
+                        <a href=""><img src="/img/3.png" alt=""></a>
+                        <a href=""><img src="/img/4.png" alt=""></a>
+                        <a href=""><img src="/img/5.png" alt=""></a>
+                        <div class="slider-content-left-top-btn">
+                            <i class="fas fa-chevron-left"></i>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="slider-content-left-bottom">
+                        <Li class="active">1</Li>
+                        <Li>2</Li>
+                        <Li>3</Li>
+                        <Li>4</Li>
+                        <Li>5</Li>
+                    </div>
+                </div>
+                <div class="slider-content-right">
+                    <li><a href=""><img src="/img/r1.jpg" alt=""></a></li>
+                    <li><a href=""><img src="/img/r2.jpg" alt=""></a></li>
+                    <li><a href=""><img src="/img/r3.jpg" alt=""></a></li>
+                    <li><a href=""><img src="/img/r4.jpg" alt=""></a></li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/script.js"></script>
 </body>
 </html>

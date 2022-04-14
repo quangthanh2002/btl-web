@@ -502,6 +502,7 @@ li {
 /* -----------slide-product--------- */
 .slider-product-one-content-container {
     position: relative;
+    overflow: hidden;
 }
 .slider-product-one-content-btn {
     position: absolute;
@@ -528,10 +529,14 @@ li {
 .slider-product-one-content-items-content {
     position: relative;
     height: 550px;
+    transition: all 0.3s ease;
 }
 .slider-product-one-content-items {
     position: absolute;
 }
 .slider-product-one-content-items:nth-child(2) {
     transform: translateX(100%);
+}
+.slider-product-one-content-items:nth-child(3) {
+    transform: translateX(200%);
 }
